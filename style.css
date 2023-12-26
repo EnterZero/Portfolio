@@ -30,7 +30,6 @@ body {
 #background {
     width: 100vw;
     height: 100vh;
-    /* background: linear-gradient(180deg, var(--colorPurple), var(--colorCyan)); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,12 +50,7 @@ body {
 }
 
 #logo span {
-    /* background: var(--colorLightgrey); */
+    padding: 10px;
     border: 1px solid var(--colorPurple);
     border-radius: 5px;
-    padding: 10px;
-}
-
-#logo span:hover {
-    border: 1px solid var(--colorCyan);
 }
