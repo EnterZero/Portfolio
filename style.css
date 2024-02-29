@@ -9,11 +9,12 @@
 }
 
 :root {
-    /* var */
-    --colorBlack: #000000;
+    /* color */
     --colorGrey: #22272e;
     --colorLightGrey: #373e47;
     --colorWhite: #adbac7;
+    /* shadow */
+    --shadowBlack: 0 0 5px 3px #000;
     /* font */
     font-family: "Anta", sans-serif;
     font-size: 62.5%;
@@ -24,4 +25,24 @@
 
 body {
     background: var(--colorGrey);
+}
+
+header {
+    width: 100vw;
+    height: 99vh;
+    background: url("./media/dev.png") center/contain no-repeat fixed;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+header>nav {
+    width: 90%;
+    height: 7%;
+    background: var(--colorLightGrey);
+    box-shadow: var(--shadowBlack);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
