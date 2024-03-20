@@ -30,7 +30,7 @@ body {
 header {
     width: 100vw;
     min-height: 99vh;
-    min-height: 99svh;
+    min-height: 99dvh;
     height: 99vh;
     background: url("./media/dev.png") center/contain no-repeat fixed;
     display: flex;
