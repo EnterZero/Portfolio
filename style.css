@@ -23,15 +23,19 @@
     scroll-behavior: smooth;
 }
 
+/* scroll */
+::-webkit-scrollbar {
+    width: 1px;
+}
+
 body {
     background: var(--colorGrey);
 }
 
 header {
     /* width: 100vw; */
-    /* svh for mobile devices */
     height: 100svh;
-    background: url("./media/dev.png") center/cover no-repeat fixed;
+    /* background: url("./media/dev.png") center/cover no-repeat fixed; */
     display: flex;
     justify-content: center;
     align-items: end;
@@ -47,6 +51,7 @@ header>nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
 }
 
 header>nav>ul {
@@ -64,4 +69,10 @@ header>nav>ul>li {
 header>nav>ul>li>a {
     color: var(--colorWhite);
     text-decoration: none;
+}
+
+#about,
+#projects,
+#contact {
+    height: 100svh;
 }
