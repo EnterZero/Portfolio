@@ -35,7 +35,7 @@ body {
 header {
     /* width: 100vw; */
     height: 100svh;
-    /* background: url("./media/dev.png") center/cover no-repeat fixed; */
+    background: url("./media/dev.png") center/cover no-repeat fixed;
     display: flex;
     justify-content: center;
     align-items: end;
@@ -75,4 +75,7 @@ header>nav>ul>li>a {
 #projects,
 #contact {
     height: 100svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
